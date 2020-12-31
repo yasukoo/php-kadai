@@ -18,14 +18,14 @@ echo sum(2, 6) . "\n";
 
 //3
 $arr = [1, 3, 5, 4,];
-function times($arr){
+function multiplication($arr){
     $result = 1;
     foreach($arr as $b){
         $result *= $b;
     }
     return $result;
 }
-echo times($arr) . "\n";
+echo multiplication($arr) . "\n";
 
 
 //4
@@ -67,9 +67,9 @@ $result = array_merge($animal1,$animal2);
 print_r($result);
 echo $result['pig'] . "  " . $result['sarmon'] . "\n";
  
-$a = time() ;
+$a = time();
 echo date("y/m/d", $a) . "\n";
 
-$b = mktime( 17, 36, 0, 8, 26, 2021) ;
+$b = mktime( 17, 36, 0, 8, 26, 2021);
 echo $b . "\n";
 echo date("y/m/d", $b) . "\n";

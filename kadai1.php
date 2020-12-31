@@ -12,7 +12,7 @@ echo $array_month[7] . "\n";
 $hello = "Hello,";
 $name = "安河内真平";
 $world = "'s World!";
-echo $hello. $name. $world . "\n";
+echo $hello . $name . $world . "\n";
 
 //4
 $tech_boost = "tech";
